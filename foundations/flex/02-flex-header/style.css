@@ -1,6 +1,17 @@
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
 .header  {
   font-family: monospace;
-  background: papayawhip;
+  background: #ffefd5;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -9,6 +20,8 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  display: flex;
+  align-items: center;
 }
 
 ul {
